@@ -1,0 +1,7 @@
+def time(dig):
+    h = dig//60
+    s = dig%60
+    message = " The time is " + str(h) + " hours " + str(s) + " mins"
+    return message
+result = time(80)
+print(result)
